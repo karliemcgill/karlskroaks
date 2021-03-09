@@ -47,7 +47,7 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
+	border-collapse: none;
 	border-spacing: 0;
 }
 
@@ -60,7 +60,11 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-	background: #404040; 
+  background-image: url("images/kroa.bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 	
 	
 }
@@ -69,40 +73,63 @@ html, body {
     width: 600px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: white;
 	text-align: center;
-	border: 4px dashed white;
+	border: none
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: none;
 	text-align: center;
+	width: 500px;
 }
 
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'Francois One', sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: rgb(235, 146, 64);
 }
 
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'Francois One', sans-serif;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: rgb(233, 156, 84);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		;
+	font-family: 'Francois One', sans-serif;
 	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+	line-height: 1.6;
+    color: rgb(231, 143, 71);
 }
-    
-    
+nav{
+	font-family: 'Francois One', sans-serif;
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0 auto;
+	border: dashed orange;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+ nav li{display: inline;
+	}
+nav a {display:inline-block;
+padding:10px
+}
+a{
+	color:rgb(233, 156, 84);
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color: black;
+	background: orange
+}
 
